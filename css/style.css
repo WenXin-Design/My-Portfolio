@@ -1,0 +1,270 @@
+body {
+    position: relative;
+    font-family: PingFangSC,helvetica neue,hiragino sans gb,arial,microsoft yahei ui,microsoft yahei,simsun,sans-serif!important;
+    color:#111111;
+  }
+  
+  nav.navbar{
+    margin:0px;
+  }
+  body {
+    position: relative;
+  }
+  .container {
+  
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1080px;
+    }
+  }
+  
+  
+  h1{
+    font-size:44px;
+    font-weight: 600;
+    margin:auto;
+    padding-bottom: 8px;
+    text-align: left;
+  }
+  
+  h2{
+    font-size:28px;
+    font-weight: 200;
+    margin:auto;
+    padding-bottom: 4px;
+    text-align: left;
+  
+  }
+  
+  
+  
+  
+  h3{
+    font-size:20px;
+    font-weight: 200;
+    margin:auto;
+    padding-bottom: 8px;
+    text-align: left;
+  }
+  
+  h4{
+    font-size:18px;
+    font-weight: 200;
+    margin:auto;
+    padding-bottom: 8px;
+    text-align: left;
+  }
+  
+  p{
+    font-size: 16px;
+    padding-bottom: 8px;
+    margin:auto;
+    line-height: 24px;
+  }
+  
+  .smaller{
+    font-size: 14px;
+  }
+  
+  
+  .container-fluid{
+    width:100%;
+    overflow: hidden;
+  }
+  
+  /* card*/
+  
+  .card-homepage{
+    margin-top: 16px;
+    border-radius: 24px;
+    border-width: 0px;
+    box-shadow:0px 0px 8px 4px #e7e7e7;
+  
+    transition: all 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out; /* Firefox 4 */
+    -webkit-transition: width 1s ease-in-out; /* Safari å’Œ Chrome */
+    -o-transition: width 1s ease-in-out; /* Opera */
+  }
+  
+  .card-homepage:hover{
+    transform: scale(1.03);
+    -ms-transform:scale(1.03);     /* IE 9 */
+    -moz-transform:scale(1.03);     /* Firefox */
+    -webkit-transform:scale(1.03); /* Safari å’Œ Chrome */
+    -o-transform:scale(1.03);     /* Opera */
+    -webkit-box-shadow:0px 0px 8px 4px #e7e7e7;
+  
+  }
+  
+  .card-body{
+    padding-left:32px;
+  
+  }
+  .card-title{
+    margin:auto;
+  }
+  
+  .footnote{
+    font-size: 12px;
+    padding-top: 4px;
+    margin:auto;
+  }
+  
+  .card-img-top{
+    border-radius: 24px 24px 0px 0px;
+    border-width: 0px;
+  }
+  
+  
+  .nav-link { 
+   
+    padding:0px;
+    display:block; 
+  
+  }
+  
+  /* unvisited link */
+  a:link {
+      color:#363D41;
+  }
+  
+  /* visited link */
+  a:visited {
+      color:#363D41;
+  }
+  
+  /* mouse over link */
+  a:hover {
+      color:#9D204A;
+      background:transparent;
+  }
+  
+  /* selected link */
+  a:active {
+      color:#363D41;
+  }
+  
+  
+  
+  
+  
+  .para{
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  
+  .para-sm{
+    padding-top:8px;
+    padding-bottom:8px;
+  }
+  
+  .blank{
+    padding-left:24px;
+  }
+  
+  .bold{
+    font-weight: 600;
+  }
+  
+  
+  
+  .inline{
+    display: inline-block;
+    vertical-align:text-bottom;
+  }
+  
+  
+  .banner{
+    background-image: url(../pic/bg-pintuan.jpg)
+  }
+  
+  
+  
+  .bg-img{
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .bg-img {
+      width: auto;
+      height: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .bg-img {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .bg-img {
+      width: 1080px;
+    }
+  }
+  
+  
+  /* Page Nav*/
+  
+  
+  /*
+  .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    font-weight: 600;
+    color:#9D204A;
+    border-left: 2px solid #9D204A;
+    background:transparent;
+  }
+  
+  .nav>li>a:hover{
+    background:none;
+  }
+  
+  .nav-pills>li>a{
+  
+  }
+  
+  .nav>li>a.sub{
+  padding:6px 30px;
+  padding-right: 0px;
+  }
+  
+  
+  nav.nav-pills.affix{
+    top: 30px; 
+    width: auto;
+  }
+  */
+  
+  
+  .content{
+      position: relative;
+  
+      overflow-y:scroll;
+  
+  }
+  
+  
+  .title{
+    padding-left: 12px;
+    border-left: 4px solid #9D204A;
+  }
+  /* demo*/
+  .demo-title{
+    padding-top:10px;
+    padding-bottom:40px;  
+  }
+  
+  
+  
+  
