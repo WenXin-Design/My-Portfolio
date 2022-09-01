@@ -333,6 +333,16 @@ body {
   .about_des .col-md-4 p{
     text-align: center;
   }
+  .label {
+    color: #292929;
+    font-size: 14px;
+    background-color:#F2F2F2;
+    padding: 8px;
+    margin-right: 8px;
+    border-radius: 16px;
+  }
+
+  
   
   
   
